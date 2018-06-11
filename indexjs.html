@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<script type="text/javascript" src="exercicesjavascript.js"></script>
-	<title>Exercice01</title>
-</head>
-<body>
+    <head>
+        <title>Exercice_4</title>
+        <meta charset="UTF-8">
+        	<script type="text/javascript" src="exercicesjavascript.js"></script>
 
-</body>
+    </head>
+    <body>
+        <form>
+            <label for="nom">Nom : </label><input type="text" name="nom" id="nom" required="" pattern="[A-Za-z]{3}" />
+            <label for="prenom">Prénom : </label><input type="text" name="prenom" id="prenom" required="" pattern="[A-Za-z]{3}" />
+            <label for="ville">Ville : </label><input type="text" name="ville" id="ville" required="" pattern="[A-Za-z]{3}" />
+            <button type="submit" name="valider" id="valider" value="valider">Valider</button>
+        </form>
+    </body>
 </html>
