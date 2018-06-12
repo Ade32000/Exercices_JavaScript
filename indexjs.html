@@ -8,10 +8,10 @@
     </head>
     <body>
         <form>
-            <label for="nom">Nom : </label><input type="text" name="nom" id="nom" required="" pattern="[A-Za-z]{3}" />
-            <label for="prenom">Prénom : </label><input type="text" name="prenom" id="prenom" required="" pattern="[A-Za-z]{3}" />
-            <label for="ville">Ville : </label><input type="text" name="ville" id="ville" required="" pattern="[A-Za-z]{3}" />
-            <button type="submit" name="valider" id="valider" value="valider">Valider</button>
+            <label for="nom">Nom : </label><input type="text" name="nom" id="nom" required="" pattern="[A-Za-z]{1,20}" value="" />
+            <label for="prenom">Prénom : </label><input type="text" name="prenom" id="prenom" required="" pattern="[A-Za-z]{1,20}" value="" />
+            <label for="ville">Ville : </label><input type="text" name="ville" id="ville" required="" pattern="[A-Za-z]{1,20}" value="" />
+            <button type="submit" name="valider" id="valider" value="valider" onclick="showAlert()">Valider</button>
         </form>
     </body>
 </html>
